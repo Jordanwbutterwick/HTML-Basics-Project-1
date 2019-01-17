@@ -28,10 +28,12 @@
 /*----Dougs section----*/
 .wrapper {
     margin: 30 auto;
-    max-width: 800px
+    max-width: 800px;
 }
 
-.mysterious {background-color: rgb(156, 4, 156)}
+.mysterious {
+    background-color: rgb(156, 4, 156)
+}
 .mysterious h1 {
         color: rgb(230, 62, 56);
 
@@ -67,7 +69,6 @@
     margin: auto;
 }
 
-
 .corporate p, a, li {
     font-family: "lato", sans-serif;
 }
@@ -88,6 +89,10 @@
 
 
 /*----Jordans section----*/
+
+.flex-container {
+    display: flex;
+}
 
 /*----formal section*/
 
@@ -113,3 +118,10 @@
 
 }
 
+/*----Relaxed---*/
+
+.relaxed-content {
+    max-width: 1200px;
+    margin: auto;
+
+}

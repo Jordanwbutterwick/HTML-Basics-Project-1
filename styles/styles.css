@@ -1,17 +1,25 @@
 /*----Base section----*/
+
+.home-content {
+    margin: auto;
+    max-width: 960px;
+}
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: relative;
+    z-index: 10;
 }
 
 .navigation li {
     float: left;
 }
 
-.navigation  li a {
+.navigation li a {
     display: block;
     color: white;
     text-align: center;
@@ -20,10 +28,60 @@
 }
 
   /* Change the link color to #111 (black) on hover */
-.navigation  li a:hover {
+.navigation li a:hover {
     background-color: #111;
 }
 
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    position: relative;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+li .dropdown {
+}
+ /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #111;
+}
 
 /*----Dougs section----*/
 .wrapper {
@@ -92,9 +150,14 @@
 
 .flex-container {
     display: flex;
+    margin: auto;
 }
 
 /*----formal section*/
+
+.formal {
+    background-image: url(../images/annie-spratt-1134518-unsplash.jpg);
+}
 
 .formal p, a, li {
     font-family: "lato", sans-serif;
@@ -102,20 +165,36 @@
 
 .formal h1 {
     font-family: "lora", serif;
+    font-size: 65px;
 }
 
-.formal-content {
-    max-width: 960px;
+.formal h2 {
+    font-family: "lora", serif;
+    font-size: 25px;
+}
+
+
+.formal h3, h4, h5, h6 {
+
+}
+
+.formal-content-2 {
+    margin: auto;
+    max-width: 1500px;
+    padding: 50px;
+}
+
+.formal-content-1{
+    max-width: 500px;
     margin: auto;
     margin-top: 100px;
     background-color: bisque;
-    padding: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     border-radius: 15px;
-}
-
-.formal {
-    background-image: url(../images/formalimage.jpg);
-
+    text-align: center;
 }
 
 /*----Relaxed---*/
@@ -123,5 +202,9 @@
 .relaxed-content {
     max-width: 1200px;
     margin: auto;
+}
 
+.relaxed-content p {
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-size: 1.5rem;
 }

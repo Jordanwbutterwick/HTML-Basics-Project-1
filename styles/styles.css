@@ -43,6 +43,12 @@
     margin: auto;
 }
 
+.corporate-image {
+    background-image: url(../images/samson-creative-91091-unsplash.jpg);
+    max-width: 960px;
+    margin: auto;
+}
+
 
 /*----Jordans section----*/
 .formal p, a, li {

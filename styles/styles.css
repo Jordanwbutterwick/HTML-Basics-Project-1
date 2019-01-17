@@ -30,6 +30,8 @@
 
 
 /*----Malkeet section----*/
+
+/*-----corporate-----*/
 .corporate p, a, li {
     font-family: "lato", sans-serif;
 }
@@ -51,6 +53,9 @@
 
 
 /*----Jordans section----*/
+
+/*----formal section*/
+
 .formal p, a, li {
     font-family: "lato", sans-serif;
 }
@@ -72,3 +77,4 @@
     background-image: url(../images/formalimage.jpg);
 
 }
+

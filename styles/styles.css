@@ -1,5 +1,28 @@
 /*----Base section----*/
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
 
+.navigation li {
+    float: left;
+  }
+  
+.navigation  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.navigation  li a:hover {
+    background-color: #111;
+  }
 
 
 /*----Dougs section----*/
@@ -11,3 +34,15 @@
 
 
 /*----Jordans section----*/
+.formal p, a, li {
+    font-family: "lato", sans-serif;
+}
+
+.formal h1 {
+    font-family: "lora", serif;
+}
+
+.formal-content {
+    max-width: 960px;
+    margin: auto;
+}

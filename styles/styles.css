@@ -31,13 +31,14 @@
     max-width: 800px
 }
 
+.mysterious {background-color: rgb(156, 4, 156)}
 .mysterious h1 {
-        color: rgb(218, 88, 83);
+        color: rgb(230, 62, 56);
 
         font-family: 'Merienda', cursive;
  }
 .mysterious p { 
-  color: darkgreen;
+  color: rgb(4, 163, 110);
   font-family: 'Merienda', cursive;}
 }
            

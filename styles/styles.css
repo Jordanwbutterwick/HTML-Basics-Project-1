@@ -5,24 +5,24 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
+}
 
 .navigation li {
     float: left;
-  }
-  
+}
+
 .navigation  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
+}
+
   /* Change the link color to #111 (black) on hover */
 .navigation  li a:hover {
     background-color: #111;
-  }
+}
 
 
 /*----Dougs section----*/
@@ -36,12 +36,13 @@
         color: rgb(230, 62, 56);
 
         font-family: 'Merienda', cursive;
- }
-.mysterious p { 
-  color: rgb(4, 163, 110);
-  font-family: 'Merienda', cursive;}
 }
-           
+.mysterious p { 
+    color: rgb(4, 163, 110);
+    font-family: 'Merienda', cursive;
+}
+
+
 
 /*----Malkeet section----*/
 

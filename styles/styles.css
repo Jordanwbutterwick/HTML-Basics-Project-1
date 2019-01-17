@@ -31,7 +31,9 @@
     max-width: 800px
 }
 
-.mysterious {background-color: rgb(156, 4, 156)}
+.mysterious {
+    background-color: rgb(156, 4, 156);
+}
 .mysterious h1 {
         color: rgb(230, 62, 56);
 
@@ -41,8 +43,13 @@
   color: rgb(4, 163, 110);
   font-family: 'Merienda', cursive;}
 }
-           
-
+.mysterious-image {
+    background-image: url(../images/Mysterio.jfif)
+}
+.mysterious-content {
+    max-width: 960px;
+    margin: auto;
+}
 /*----Malkeet section----*/
 
 .playful p {

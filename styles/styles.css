@@ -3,8 +3,21 @@
 
 
 /*----Dougs section----*/
+.wrapper {
+    margin: 30 auto;
+    max-width: 800px
+}
 
+.mysterious h1 {
+        color: rgb(218, 88, 83);
 
+        font-family: 'Merienda', cursive;
+ }
+.mysterious p { 
+  color: darkgreen;
+  font-family: 'Merienda', cursive;}
+}
+           
 
 /*----Malkeet section----*/
 

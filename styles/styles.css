@@ -1,5 +1,28 @@
 /*----Base section----*/
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
 
+.navigation li {
+    float: left;
+  }
+  
+.navigation  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.navigation  li a:hover {
+    background-color: #111;
+  }
 
 
 /*----Dougs section----*/
@@ -21,6 +44,50 @@
 
 /*----Malkeet section----*/
 
+/*-----corporate-----*/
+.corporate p, a, li {
+    font-family: "lato", sans-serif;
+}
+
+.corporate h1 {
+    font-family: "lora", serif;
+}
+
+.corporate-content {
+    max-width: 960px;
+    margin: auto;
+}
+
+.corporate-image {
+    background-image: url(../images/samson-creative-91091-unsplash.jpg);
+    max-width: 960px;
+    margin: auto;
+}
 
 
 /*----Jordans section----*/
+
+/*----formal section*/
+
+.formal p, a, li {
+    font-family: "lato", sans-serif;
+}
+
+.formal h1 {
+    font-family: "lora", serif;
+}
+
+.formal-content {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: bisque;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.formal {
+    background-image: url(../images/formalimage.jpg);
+
+}
+

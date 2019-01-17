@@ -30,6 +30,27 @@
 
 
 /*----Malkeet section----*/
+.playful p {
+    font-family: "Indie Flower", sans-serif;
+    font-size:50px;
+}
+
+.playful h1 {
+    font-family: "Indie Flower", serif;
+    color: #9451C1;
+    font-size: 100px;
+}
+
+.playful-content {
+    max-width: 960px;
+    margin: auto;
+}
+.playful-image {
+    background-image: url(../images/markus-spiske-711225-unsplash.jpg);
+    max-width: 700px;
+    margin: auto;
+}
+
 .corporate p, a, li {
     font-family: "lato", sans-serif;
 }
@@ -42,7 +63,6 @@
     max-width: 960px;
     margin: auto;
 }
-
 .corporate-image {
     background-image: url(../images/samson-creative-91091-unsplash.jpg);
     max-width: 960px;

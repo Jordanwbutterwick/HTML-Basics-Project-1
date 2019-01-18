@@ -226,9 +226,21 @@ h6 {
 
 .relaxed-content p {
   font-family: "Gloria Hallelujah", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1em;
 }
 
-.relaxed-content h1, h2, h3, h4, h5, h6 {
+.relaxed-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Gloria Hallelujah", sans-serif;
+}
+
+/* ----Trustworthy---- */
+
+.trustworthy-content {
+  max-width: 700px;
+  margin: auto;
 }

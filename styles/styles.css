@@ -1,47 +1,118 @@
 /*----Base section----*/
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
 
-.navigation li {
-    float: left;
-  }
-  
-.navigation  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-.navigation  li a:hover {
-    background-color: #111;
-  }
+body,
+html {
+  margin: 0;
+}
 
+.home-content {
+  margin: auto;
+  max-width: 960px;
+}
+
+.nav-main {
+  width: 100%;
+  background-color: #222;
+  height: 70px;
+  color: #fff;
+}
+
+.nav-main .logo {
+  float: left;
+  height: 40px;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.nav-main ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-main ul li {
+  float: left;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 15px 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: #444;
+}
+
+.nav-content {
+  position: absolute;
+  top: 70px;
+  overflow: hidden;
+  background-color: #222;
+  color: #fff;
+  max-height: 0px;
+}
+
+.nav-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-content a:hover {
+  text-decoration: underline;
+}
+
+.nav-sub {
+  padding: 10px;
+}
+
+.nav-sub ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav-sub ul li a {
+  display: inline-block;
+  padding: 15px 50px;
+}
+
+.nav-item:focus {
+  background-color: #444;
+}
+
+.nav-item:focus ~ .nav-content {
+  max-height: 400px;
+  z-index: 10;
+  -webkit-transition: max-height 0.6s ease-in;
+  -moz-transition: max-height 0.6s ease-in;
+  transition: max-height 0.6s ease-in;
+}
 
 /*----Dougs section----*/
 .wrapper {
-    margin: 30 auto;
-    max-width: 800px
+  margin: 30 auto;
+  max-width: 800px;
 }
 
 .mysterious {
     background-color: rgb(156, 4, 156);
 }
 .mysterious h1 {
-        color: rgb(230, 62, 56);
+  color: rgb(230, 62, 56);
 
-        font-family: 'Merienda', cursive;
- }
-.mysterious p { 
+  font-family: "Merienda", cursive;
+}
+.mysterious p {
   color: rgb(4, 163, 110);
-  font-family: 'Merienda', cursive;}
+  font-family: "Merienda", cursive;
 }
 .mysterious-image {
     background-image: url(../images/Mysterio.jfif)
@@ -53,69 +124,108 @@
 /*----Malkeet section----*/
 
 .playful p {
-    font-family: "Indie Flower", sans-serif;
-    font-size:50px;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 50px;
 }
 
 .playful h1 {
-    font-family: "Indie Flower", serif;
-    color: #9451C1;
-    font-size: 100px;
+  font-family: "Indie Flower", serif;
+  color: #9451c1;
+  font-size: 100px;
 }
 
 .playful-content {
-    max-width: 960px;
-    margin: auto;
+  max-width: 960px;
+  margin: auto;
 }
 .playful-image {
-    background-image: url(../images/markus-spiske-711225-unsplash.jpg);
-    max-width: 700px;
-    margin: auto;
+  background-image: url(../images/markus-spiske-711225-unsplash.jpg);
+  max-width: 700px;
+  margin: auto;
 }
 
-
-.corporate p, a, li {
-    font-family: "lato", sans-serif;
+.corporate p,
+a,
+li {
+  font-family: "lato", sans-serif;
 }
 
 .corporate h1 {
-    font-family: "lora", serif;
+  font-family: "lora", serif;
 }
 
 .corporate-content {
-    max-width: 960px;
-    margin: auto;
+  max-width: 960px;
+  margin: auto;
 }
 .corporate-image {
-    background-image: url(../images/samson-creative-91091-unsplash.jpg);
-    max-width: 960px;
-    margin: auto;
+  background-image: url(../images/samson-creative-91091-unsplash.jpg);
+  max-width: 960px;
+  margin: auto;
 }
-
 
 /*----Jordans section----*/
 
+.flex-container {
+  display: flex;
+  margin: auto;
+}
+
 /*----formal section*/
 
-.formal p, a, li {
-    font-family: "lato", sans-serif;
+.formal {
+  background-image: url(../images/annie-spratt-1134518-unsplash.jpg);
+}
+
+.formal p,
+a,
+li {
+  font-family: "lato", sans-serif;
 }
 
 .formal h1 {
-    font-family: "lora", serif;
+  font-family: "lora", serif;
+  font-size: 65px;
 }
 
-.formal-content {
-    max-width: 960px;
-    margin: auto;
-    margin-top: 100px;
-    background-color: bisque;
-    padding: 25px;
-    border-radius: 15px;
+.formal h2 {
+  font-family: "lora", serif;
+  font-size: 25px;
 }
 
-.formal {
-    background-image: url(../images/formalimage.jpg);
-
+.formal h3,
+h4,
+h5,
+h6 {
 }
 
+.formal-content-2 {
+  margin: auto;
+  max-width: 1500px;
+  padding: 50px;
+}
+
+.formal-content-1 {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: bisque;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/*----Relaxed---*/
+
+.relaxed-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.relaxed-content p {
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size: 1.5rem;
+}

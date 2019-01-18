@@ -101,10 +101,13 @@ html {
 }
 
 /*----Dougs section----*/
+
+/*mysterious*/
+/*
 .wrapper {
   margin: 30 auto;
   max-width: 800px;
-}
+}*/
 
 .mysterious {
   background-color: rgb(156, 4, 156);
@@ -117,6 +120,52 @@ html {
 .mysterious p {
   color: rgb(4, 163, 110);
   font-family: "Merienda", cursive;
+}
+.mysterious-image {
+  background-image: url(../images/Mysterio.jfif);
+}
+.mysterious-content {
+  max-width: 960px;
+  margin: auto;
+}
+/*fun*/
+.fun {
+  background-color: blue;
+  height: 100%;
+}
+.fun h1 {
+  color: rgb(255, 0, 179);
+  font-family: "Joti One", cursive;
+  margin: 0px;
+}
+.fun p {
+  color: rgb(0, 255, 200);
+  font-family: "Joti One", cursive;
+}
+/*Youthful*/
+.youthful {
+  background-color: rgb(255, 145, 0);
+}
+.youthful h1 {
+  color: rgb(89, 0, 255);
+  font-family: "Bubblegum Sans", cursive;
+}
+.youthful p {
+  color: red;
+  font-family: "Bubblegum Sans", cursive;
+}
+/*Sophisticated*/
+.sophisticated {
+  background-color: rgb(94, 131, 93);
+}
+.sophisticated h1 {
+  color: #444;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.sophisticated p {
+  color: rgb(247, 244, 244);
+  font-family: "Noto Sans", sans-serif;
 }
 
 /*----Malkeet section----*/
@@ -159,6 +208,20 @@ html {
     max-width: 700px;
     margin: auto; 
 
+.energetic-content h1 {
+  font-family: "Gloria Hallelujah", serif;
+  color: orangered;
+  font-size: 100px;
+}
+
+.energetic-content {
+  max-width: 960px;
+  margin: auto;
+}
+.energetic-image {
+  background-image: url(../images/john-torcasio-1159809-unsplash.jpg);
+  max-width: 700px;
+  margin: auto;
 }
 .playful p {
   font-family: "Indie Flower", sans-serif;
@@ -265,9 +328,24 @@ h6 {
 
 .relaxed-content p {
   font-family: "Gloria Hallelujah", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1em;
 }
 
-.relaxed-content h1, h2, h3, h4, h5, h6 {
+.relaxed-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Gloria Hallelujah", sans-serif;
+}
+
+/* ----Trustworthy---- */
+
+.trustworthy-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.trustworthy {
 }

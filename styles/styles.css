@@ -101,13 +101,16 @@ html {
 }
 
 /*----Dougs section----*/
+
+/*mysterious*/
+/*
 .wrapper {
   margin: 30 auto;
   max-width: 800px;
-}
+}*/
 
 .mysterious {
-    background-color: rgb(156, 4, 156);
+  background-color: rgb(156, 4, 156);
 }
 .mysterious h1 {
   color: rgb(230, 62, 56);
@@ -119,12 +122,52 @@ html {
   font-family: "Merienda", cursive;
 }
 .mysterious-image {
-    background-image: url(../images/Mysterio.jfif)
+  background-image: url(../images/Mysterio.jfif);
 }
 .mysterious-content {
-    max-width: 960px;
-    margin: auto;
+  max-width: 960px;
+  margin: auto;
 }
+/*fun*/
+.fun {
+  background-color: blue;
+  height: 100%;
+}
+.fun h1 {
+  color: rgb(255, 0, 179);
+  font-family: "Joti One", cursive;
+  margin: 0px;
+}
+.fun p {
+  color: rgb(0, 255, 200);
+  font-family: "Joti One", cursive;
+}
+/*Youthful*/
+.youthful {
+  background-color: rgb(255, 145, 0);
+}
+.youthful h1 {
+  color: rgb(89, 0, 255);
+  font-family: "Bubblegum Sans", cursive;
+}
+.youthful p {
+  color: red;
+  font-family: "Bubblegum Sans", cursive;
+}
+/*Sophisticated*/
+.sophisticated {
+  background-color: rgb(94, 131, 93);
+}
+.sophisticated h1 {
+  color: #444;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.sophisticated p {
+  color: rgb(247, 244, 244);
+  font-family: "Noto Sans", sans-serif;
+}
+
 /*----Malkeet section----*/
 
 .playful p {

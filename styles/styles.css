@@ -169,11 +169,45 @@ html {
 }
 
 /*----Malkeet section----*/
-.energetic-content p {
-  font-family: "Gloria Hallelujah", sans-serif;
+.prestige-content p{
+  font-family: "Pacifico", sans-serif;
   font-size: 50px;
+  color:orangered;
 }
-
+.prestige-content h1{
+  font-family: "Pacifico", serif;
+  color:palevioletred;
+  font-size: 150px;
+}
+.prestige-content {
+  max-width: 960px;
+  margin: auto;
+}
+.prestige-image {
+  background-image: url(../images/ross-sneddon-1207836-unsplash.jpg);
+  max-width: 500px;
+  margin: auto; 
+}
+.energetic-content p{
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-size: 50px;
+  }
+  
+  .energetic-content h1 {
+    font-family: "Gloria Hallelujah", serif;
+    color:orangered;
+    font-size: 100px;
+  }
+  
+  .energetic-content {
+    max-width: 960px;
+    margin: auto;
+  }
+  .energetic-image {
+    background-image: url(../images/john-torcasio-1159809-unsplash.jpg);
+    max-width: 700px;
+    margin: auto; 
+  }
 .energetic-content h1 {
   font-family: "Gloria Hallelujah", serif;
   color: orangered;

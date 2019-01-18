@@ -169,26 +169,25 @@ html {
 }
 
 /*----Malkeet section----*/
-.energetic-content p{
-    font-family: "Gloria Hallelujah", sans-serif;
-    font-size: 50px;
-  }
-  
-  .energetic-content h1 {
-    font-family: "Gloria Hallelujah", serif;
-    color:orangered;
-    font-size: 100px;
-  }
-  
-  .energetic-content {
-    max-width: 960px;
-    margin: auto;
-  }
-  .energetic-image {
-    background-image: url(../images/john-torcasio-1159809-unsplash.jpg);
-    max-width: 700px;
-    margin: auto; 
+.energetic-content p {
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size: 50px;
+}
 
+.energetic-content h1 {
+  font-family: "Gloria Hallelujah", serif;
+  color: orangered;
+  font-size: 100px;
+}
+
+.energetic-content {
+  max-width: 960px;
+  margin: auto;
+}
+.energetic-image {
+  background-image: url(../images/john-torcasio-1159809-unsplash.jpg);
+  max-width: 700px;
+  margin: auto;
 }
 .playful p {
   font-family: "Indie Flower", sans-serif;
@@ -312,4 +311,7 @@ h6 {
 .trustworthy-content {
   max-width: 700px;
   margin: auto;
+}
+
+.trustworthy {
 }

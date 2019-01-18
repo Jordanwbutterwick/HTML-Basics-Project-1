@@ -120,6 +120,25 @@ html {
 }
 
 /*----Malkeet section----*/
+.prestige-content p{
+  font-family: "Pacifico", sans-serif;
+  font-size: 50px;
+  color:orangered;
+}
+.prestige-content h1{
+  font-family: "Pacifico", serif;
+  color:palevioletred;
+  font-size: 150px;
+}
+.prestige-content {
+  max-width: 960px;
+  margin: auto;
+}
+.prestige-image {
+  background-image: url(../images/ross-sneddon-1207836-unsplash.jpg);
+  max-width: 500px;
+  margin: auto; 
+}
 .energetic-content p{
     font-family: "Gloria Hallelujah", sans-serif;
     font-size: 50px;

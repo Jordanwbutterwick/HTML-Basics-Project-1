@@ -198,9 +198,9 @@ html {
   max-width: 960px;
   margin: auto;
 }
-.prestige-image {
+.prestige {
   background-image: url(../images/ross-sneddon-1207836-unsplash.jpg);
-  max-width: 500px;
+  max-width: 100%;
   margin: auto;
 }
 .energetic-content p {
